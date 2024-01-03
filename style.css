@@ -40,8 +40,9 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
   /* A margem é composta por margin-top, -right, -bottom e -left, respectivamente (como um relógio). As medidas em px podem ser aplicadas numa única linha. Abaixo foram utilizadas 3 medidas, sendo que a primeira se refere ao top, a segunda às laterais e a última à parte inferior do container */
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
